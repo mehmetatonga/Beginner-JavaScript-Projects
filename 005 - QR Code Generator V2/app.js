@@ -17,7 +17,7 @@ function generateQR(){
 
 function downloadQR(){
     var qrCode = document.querySelector("img")
-    if(qrCode){
+    if(qrText.value.length>0){
         var link = document.createElement('a');
         link.href = qrCode.src;
         link.download = 'qr-code.png';
@@ -36,5 +36,3 @@ function downloadQR(){
         }, 1000);
     }
 }
-
-//https://codepen.io/MadanBhandari/pen/vbaKGJ
