@@ -1,0 +1,99 @@
+body{
+    font-family: "poppins" sans-serif;
+}
+
+.clock-dial{
+    width: 500px;
+    height: 500px;
+    border: 20px solid #658452;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.point{
+    width: 20px;
+    height: 20px;
+    background-color: #283149;
+    border-radius: 50%;
+    position: absolute;
+    top: 240px;
+    left: 240px;
+}
+
+.hour{
+    font-size: 30px;
+    font-weight: bold;
+    color: #283149;
+    position: absolute;
+}
+
+.hour-1{
+    top: 40px;
+    right: 130px;
+}
+
+.hour-2{
+    top: 125px;
+    right: 45px;
+}
+
+.hour-3{
+    top: 235px;
+    right: 10px;
+}
+
+.hour-4{
+    top: 345px;
+    right: 45px;
+}
+
+.hour-5{
+    top: 430px;
+    right: 130px;
+}
+
+.hour-6{
+    bottom: 10px;
+    left: 240px;
+}
+
+.hour-7{
+    top: 430px;
+    left: 130px;
+}
+
+.hour-8{
+    top: 345px;
+    left: 45px;
+}
+
+.hour-9{
+    top: 235px;
+    left: 10px;
+}
+
+.hour-10{
+    top: 125px;
+    left: 45px;
+}
+
+.hour-11{
+    top: 40px;
+    left: 130px;
+}
+
+.hour-12{
+    top: 10px;
+    left: 235px;
+}
+
+.brand{
+    font-size: 30px;
+    font-weight: bold;
+    color: #283149;
+    position: absolute;
+    top: 100px;
+    left: 43.5%;
+
+}
